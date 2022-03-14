@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.wrapper{
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
 /* Aqui preciso reever onde altero a imagem fundo e a imagem frontal para adequar ao tamanho da tela */
 #secao_inicial{
     background-image: url(./Img/wallpapersden.com_dead-space-remake-2021_3840x2160.jpg);
@@ -42,7 +48,7 @@ padding-top: 80px;
     height: 40%;
     object-fit: cover;
     border-radius: 5%;
-    box-shadow: 0 -8px 10px rgba(19, 19, 31, 0.05);
+    /* box-shadow: 0 -8px 10px rgba(19, 19, 31, 0.05); */
     /* background: linear-gradient(90deg, rgba(219, 73, 196, 0.3) 0%, rgba(188, 62, 219, 0.3) 100%) */
     padding-top: 150px;
     /* border-radius: 5px 5px 0 0;
@@ -52,8 +58,24 @@ padding-top: 80px;
     background-size: cover;
     background-position: 0 20%; */
 }
-#apresentação{
+#secao2{
 background-color: rgb(26, 23, 23);
-height: 500px;
-width: ;
+height: 900px;
+/* margin: 0 auto; */
+}
+#secao2_artigos{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+}
+#imagem_teste{
+    height: 570px;
+    width: 440px;
+}
+
+/* #teste{
+    background-color: green;
+    height: 500px;
+     */
 }
