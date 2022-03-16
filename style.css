@@ -13,7 +13,7 @@ ul,li {
 }
 .wrapper{
     width: 70%;
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
 
 }
@@ -27,19 +27,15 @@ ul,li {
     /* max-width: 1920px; */
     height: 100vh;
 }
+.link{
+    width: 100%;
+}
 nav{
     /*background-color: white;*/        
     display: flex;
     justify-content: center;
     padding-top: 40px;
 }
-/* nav>button{
-    margin: 0 15px;
-    padding: 0px 20px;
-    font-size: 18px;
-    text-decoration: none;
-    color: white;
-} */
 nav>a>h3{
     display: block;
     width: fit-content;
@@ -72,13 +68,13 @@ nav>a>h3{
 
 /* Inicio secao 2 */
 #secao2{
-background-color: rgb(26, 23, 23);
+background-color: #161616;
 height: 520px;
 /* margin: 0 auto; */
 }
 #secao2_artigos{
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 /* justify-content: space-between; */
 /* background-color: white; */
 padding-top: 70px;;
@@ -86,12 +82,11 @@ padding-top: 70px;;
 #imagem_teste{
     height: 430px;
     width: 570px;
-    margin-left: 50px;
+    
 }
-#secao2_texto_direito{
-    /* background-color: white; */
-    width: 45%;    
-    margin-right: 50px;
+#secao2_texto_direito{    
+    width: 52%;    
+    background-color: royalblue;
 }
 #secao2_texto_direito>h2{
     font-size: 30px;
@@ -104,22 +99,64 @@ padding-top: 70px;;
     text-align: center;
     color: white;
 }
-
+#titulo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titulo>h3{
+    font-size: 30px;
+}
 /* Inicio Secao 3 */
 
 #secao3{
     height: 600px;
     display: flex;
+    background-color: pink;
 }
 #lista{
     background-color: blue;
-    width: 30%;
+    width: 25%;
 }
 #lista>ul{
     display:flex;
     flex-direction: column;
+    align-items: center;    
+}
+.link{
+    width: 100%;
+    
+}
+.primeiro{
+    margin: 50px 0 0;
+}
+.link>a{
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    color: white;    
+    font-size: 18px;
+    padding: 25px 0;
+    border-radius: 3px;    
+    padding-left: 20px;
+    
+    background-color: bisque;
 }
 #imagem_teste2{
     height: 545px;
-    width: 300px;
+    width: 480px;
+    margin-top: 20px
+}
+#texto_secao3{
+    width: 450px;
+    background-color: green;
+    /* margin-left: 50px; */
+    margin: 20px 0 0 10px;
+}
+#teste2{
+    height: 200px;
+    background-color: blanchedalmond;
 }
