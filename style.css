@@ -11,6 +11,9 @@ ul,li {
     text-decoration: none;
     list-style-type: none;
 }
+body{
+    background-color: #090604;
+}
 .wrapper{
     width: 70%;
     max-width: 1200px;
@@ -68,7 +71,6 @@ nav>a>h3{
 
 /* Inicio secao 2 */
 #secao2{
-background-color: #161616;
 height: 520px;
 /* margin: 0 auto; */
 }
@@ -104,20 +106,21 @@ padding-top: 70px;;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    
 }
 #titulo>h3{
     font-size: 30px;
 }
 /* Inicio Secao 3 */
-
 #secao3{
     height: 600px;
     display: flex;
-    background-color: pink;
 }
 #lista{
-    background-color: blue;
+    /* background-color: blue; */
     width: 25%;
+    padding-top: 50px;
 }
 #lista>ul{
     display:flex;
@@ -145,6 +148,11 @@ padding-top: 70px;;
     
     background-color: bisque;
 }
+#texto_imagem{
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: cadetblue; */
+}
 #imagem_teste2{
     height: 545px;
     width: 480px;
@@ -152,9 +160,32 @@ padding-top: 70px;;
 }
 #texto_secao3{
     width: 450px;
-    background-color: green;
-    /* margin-left: 50px; */
+    /* background-color: green; */
     margin: 20px 0 0 10px;
+    padding-top: 60px;
+    text-align: center;
+}
+#texto_secao3>h4{
+    font-size: 25px;    
+    padding: 0 0 25px 0;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    /* background-color: crimson; */
+}
+#texto_secao3>p{
+    font-size: 20px;
+    width: 75%;
+    /* background-color: coral; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+
 }
 #teste2{
     height: 200px;
